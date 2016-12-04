@@ -1,1 +1,1 @@
-# ReactJS
+# ReactJSRepository for exploring ReactJS and getting familiar with it's features.
