@@ -1,9 +1,15 @@
 import React from 'react';
 import {render} from 'react-dom';
+import NewComponent from './NewComponent.jsx';
 
 class App extends React.Component {
     render () {
-        return <p> Hello from React! </p>;
+        return (
+            <div>
+                <p> Hello from React! </p>
+                <NewComponent />
+            </div>
+        );
     }
 }
 
