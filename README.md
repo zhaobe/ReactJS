@@ -1,1 +1,1 @@
-# ReactJSRepository for exploring ReactJS and getting familiar with it's features.
+# ReactJSRepository for exploring ReactJS and getting familiar with it's features.notes: - ```npm run dev``` is set to run the webpack with the watch option.- ```npm run build``` is set to run the webpack in production mode.- ```npm run start``` exports the configuration object.
