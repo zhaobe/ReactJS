@@ -87,7 +87,12 @@
 	                _react2.default.createElement(
 	                    'p',
 	                    null,
-	                    ' Hello from React! '
+	                    ' Hello from React!',
+	                    _react2.default.createElement(
+	                        'button',
+	                        null,
+	                        'This is a Button'
+	                    )
 	                ),
 	                _react2.default.createElement(_NewComponent2.default, null)
 	            );
