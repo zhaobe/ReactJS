@@ -69,6 +69,8 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
+	var ReactDOM = __webpack_require__(/*! react-dom */ 32);
+	
 	var App = function (_React$Component) {
 	    _inherits(App, _React$Component);
 	
@@ -87,13 +89,39 @@
 	                _react2.default.createElement(
 	                    'p',
 	                    null,
-	                    ' Hello from React!',
-	                    _react2.default.createElement(
-	                        'button',
-	                        null,
-	                        'This is a Button'
-	                    )
+	                    ' Hello World React!'
 	                ),
+	                _react2.default.createElement(
+	                    'button',
+	                    null,
+	                    'This is a Button'
+	                ),
+	                _react2.default.createElement('br', null),
+	                _react2.default.createElement(
+	                    'p',
+	                    null,
+	                    'Putting curly braces inside tags will evalute the element as javascript.'
+	                ),
+	                _react2.default.createElement(
+	                    'p',
+	                    null,
+	                    'As seen here, we print out the number ',
+	                    1 + 2,
+	                    ' instead of 1 + 2.'
+	                ),
+	                _react2.default.createElement('br', null),
+	                _react2.default.createElement(
+	                    'p',
+	                    null,
+	                    'You may also access the Javascript variables in the JSX environment'
+	                ),
+	                _react2.default.createElement(
+	                    'p',
+	                    null,
+	                    'Don\'t forget the curly braces when passing it into the render method.'
+	                ),
+	                _react2.default.createElement('br', null),
+	                _react2.default.createElement('p', null),
 	                _react2.default.createElement(_NewComponent2.default, null)
 	            );
 	        }
