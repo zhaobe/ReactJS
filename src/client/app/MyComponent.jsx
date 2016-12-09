@@ -4,10 +4,10 @@ class MyComponent extends React.Component {
     render() {
         return (
             <div>
-                <h1>Hello From MyComponent</h1>
+                name: {user.name}
             </div>
         );
     }
 }
-
+var user = { name: 'Bob'};
 export default MyComponent;

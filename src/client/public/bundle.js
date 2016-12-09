@@ -125,6 +125,7 @@
 	                _react2.default.createElement('br', null),
 	                _react2.default.createElement('p', null),
 	                _react2.default.createElement(_NewComponent2.default, null),
+	                _react2.default.createElement('br', null),
 	                _react2.default.createElement(_MyComponent2.default, null)
 	            );
 	        }
@@ -22490,11 +22491,8 @@
 	            return _react2.default.createElement(
 	                'div',
 	                null,
-	                _react2.default.createElement(
-	                    'h1',
-	                    null,
-	                    'Hello From MyComponent'
-	                )
+	                'name: ',
+	                user.name
 	            );
 	        }
 	    }]);
@@ -22502,6 +22500,7 @@
 	    return MyComponent;
 	}(_react2.default.Component);
 	
+	var user = { name: 'Bob' };
 	exports.default = MyComponent;
 
 /***/ }

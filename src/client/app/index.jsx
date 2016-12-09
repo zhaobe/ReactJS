@@ -18,6 +18,7 @@ class App extends React.Component {
                 <br/>
                 <p></p>
                 <NewComponent />
+                <br/>
                 <MyComponent />
             </div>
         );
