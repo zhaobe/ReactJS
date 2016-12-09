@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 import NewComponent from './NewComponent.jsx';
-var ReactDOM = require('react-dom');
+import MyComponent from './MyComponent.jsx';
 
 class App extends React.Component {
     render () {
@@ -18,6 +18,7 @@ class App extends React.Component {
                 <br/>
                 <p></p>
                 <NewComponent />
+                <MyComponent />
             </div>
         );
     }
